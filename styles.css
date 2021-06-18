@@ -2,7 +2,7 @@
     font-size: 0.4px;
     position: absolute;
     top: 70em;
-    left: calc(110vw - 500px);
+    left: calc(145vw - 600px);
     font-family: sans-serif;
     --i-grid: #aaf;
     --i-grid-items-shadow: #aaa;
@@ -1366,9 +1366,9 @@
     left: 800em;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 450px) {
     .illustration {
-        font-size: 0.8px;
+        font-size: 1px;
         top: 0;
         left: 0;
     }
