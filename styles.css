@@ -1,10 +1,8 @@
 .illustration {
-    font-size: 0.5px;
+    font-size: 0.4px;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 590em;
-    width: 500em;
+    top: 70em;
+    left: calc(110vw - 600px);
     font-family: sans-serif;
     --i-grid: #aaf;
     --i-grid-items-shadow: #aaa;
@@ -41,6 +39,14 @@
     --i-answer: #f60;
     --i-answer-shadow: #c50;
     --i-logo-shadow: #000;
+}
+
+.illustration-main {
+    position: absolute;
+    top: 0;
+    left: 350em;
+    height: 590em;
+    width: 500em;
 }
 
 .i-grid {
@@ -360,7 +366,7 @@
         visibility: hidden;
     }
     80% {
-        left: -150%;
+        left: -300%;
         opacity: 0;
         visibility: hidden;
     }
@@ -377,7 +383,7 @@
         visibility: hidden;
     }
     80% {
-        left: 150%;
+        left: 300%;
         opacity: 0;
         visibility: hidden;
     }
@@ -1291,5 +1297,114 @@
     57% {
         width: 0;
         visibility: hidden;
+    }
+}
+
+.i-box1 {
+    position: absolute;
+    top: 540em;
+    left: 200em;
+}
+
+.i-box2 {
+    position: absolute;
+    top: 540em;
+    left: 600em;
+}
+
+.i-box3 {
+    position: absolute;
+    top: 840em;
+    left: 0;
+}
+
+.i-box4 {
+    position: absolute;
+    top: 840em;
+    left: 400em;
+}
+
+.i-box5 {
+    position: absolute;
+    top: 840em;
+    left: 800em;
+}
+
+.i-box6 {
+    position: absolute;
+    top: 1140em;
+    left: -200em;
+}
+
+.i-box7 {
+    position: absolute;
+    top: 1140em;
+    left: 200em;
+}
+
+.i-box8 {
+    position: absolute;
+    top: 1140em;
+    left: 600em;
+}
+
+.i-box9 {
+    position: absolute;
+    top: 1440em;
+    left: 0;
+}
+
+.i-box10 {
+    position: absolute;
+    top: 1440em;
+    left: 400em;
+}
+
+.i-box11 {
+    position: absolute;
+    top: 1440em;
+    left: 800em;
+}
+
+@media (min-width: 960px) {
+    .illustration {
+        font-size: 0.8px;
+        top: 0;
+        left: 0;
+    }
+    .i-extra-box {
+        display: none;
+    }
+    @keyframes i-left-items {
+        0% {
+            visibility: hidden;
+        }
+        80% {
+            left: -100%;
+            opacity: 0;
+            visibility: hidden;
+        }
+        85% {
+            opacity: 1;
+        }
+        95% {
+            left: 50em;
+        }
+    }
+    @keyframes i-right-items {
+        0% {
+            visibility: hidden;
+        }
+        80% {
+            left: 100%;
+            opacity: 0;
+            visibility: hidden;
+        }
+        85% {
+            opacity: 1;
+        }
+        95% {
+            left: 10em;
+        }
     }
 }
