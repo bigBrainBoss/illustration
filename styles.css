@@ -640,6 +640,7 @@
 
 .i-question-content {
     background-color: var(--i-question);
+    align-items: unset;
     flex-direction: column;
     animation: i-question-content 10s;
 }
