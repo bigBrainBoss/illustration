@@ -1366,7 +1366,7 @@
     left: 800em;
 }
 
-@media (min-width: 450px) {
+@media screen and (min-width: 450px) {
     .illustration {
         font-size: 1px;
         top: 0;
