@@ -2,7 +2,7 @@
     font-size: 0.4px;
     position: absolute;
     top: 70em;
-    left: calc(110vw - 600px);
+    left: calc(110vw - 500px);
     font-family: sans-serif;
     --i-grid: #aaf;
     --i-grid-items-shadow: #aaa;
